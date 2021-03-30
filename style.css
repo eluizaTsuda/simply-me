@@ -3,18 +3,25 @@
     padding-bottom: 50px;
 }
 .bg-1{
-    background-color: lavender;
+    background-color: #F6f5f5;
     color: #0f0f0f;
 }
 .bg-2{
-    background-color: #474e5d;
-    color: #ffffff;
+    background-color: #D3e0ea;
+    color: #555555;
 
 }
 .bg-3{
-    background-color: #ffffff;
-    color: #555555;
+    background-color: #a9b9fc;;
+    color: #0f0f0f;
 }
-.img-size{
+.bg-4{
+    background-color: #276678;
+    color: #F6f5f5;
+}
+.img-pict-size{
+    width: 100%;
+}
+.img-social-size{
     width: 45px;
 }
