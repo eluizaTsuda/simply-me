@@ -1,12 +1,19 @@
+:root{
+    --color-purple: #ab35bb;
+}
 body{
     font-family: 'Livvic', sans-serif;
     font-size: 22px;
     line-height: 1.8;
     color: #f5f6f7;
 }
-
 p{
     font-size: 18px;
+    font-family: 'Livvic', sans-serif;
+}
+.margin {margin-bottom: 30px;}
+.p-small{
+    font-size: 14px;
 }
 
 .bg-1{
@@ -16,7 +23,6 @@ p{
 .bg-2{
     background-color: #D3e0ea;
     color: #555555;
-
 }
 .bg-3{
     background-color: #8fadc5;;
@@ -34,14 +40,12 @@ p{
     padding-top: 70px;
     padding-bottom: 70px;
 }
-
 .img-pict-size{
     width: 100%;
 }
 .img-social-size{
     width: 45px;
 }
-
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -53,5 +57,15 @@ p{
     letter-spacing: 5px;
   }
   .navbar-nav  li a:hover {
-      color: #1abc9c;
+      color: #1abc9c !important;
+  }
+  /* >>>>> Footer - coded by eluh! <<<<< */
+  .col-coded-sign {
+    color: var(--color-purple);
+    font-family: Princess Sofia, Calibri;
+    font-size: 22px;
+    font-weight: 900;
+  }  
+  .strong-font{
+    font-weight:600;
   }
