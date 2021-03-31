@@ -2,26 +2,30 @@
     --color-purple: #ab35bb;
 }
 body{
-    font-family: 'Livvic', sans-serif;
-    font-size: 22px;
-    line-height: 1.8;
-    color: #f5f6f7;
+    
 }
 p{
     font-size: 18px;
-    font-family: 'Livvic', sans-serif;
 }
-.margin {margin-bottom: 30px;}
 .p-small{
     font-size: 14px;
 }
+.margin-bt {
+    margin-bottom: 25px;
+}
+.margin-tp {
+    margin-top: 25px;
+}
 
+h3-{
+    font-family: 'Livvic', sans-serif;;
+}
 .bg-1{
-    background-color: #F6f5f5;
+    background-color: #D3e0ea;
     color: #0f0f0f;
 }
 .bg-2{
-    background-color: #D3e0ea;
+    background-color: #b1d3ee;
     color: #555555;
 }
 .bg-3{
@@ -63,7 +67,7 @@ p{
   .col-coded-sign {
     color: var(--color-purple);
     font-family: Princess Sofia, Calibri;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 900;
   }  
   .strong-font{
