@@ -10,19 +10,48 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        
+     
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Livvic" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Livvic">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Pacifico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    
     <title>Simply Me Webpage</title>
 </head>
 
 <body>
 
-    <div class="container-fluid text-center bg-1">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Luh!</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#who">Who</a></li>
+                    <li><a href="#what">What</a></li>
+                    <li><a href="#why">Why</a></li>
+                    <li><a href="#where">Where</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="who" class="container-fluid text-center bg-1">
         <h3>Who Am I?</h3>
         <img src="image/Luh_avatar.png" class="img-circle" alt="Luh_avatar">
         <h3>Hi, I'm Luiza!</h3>
     </div>
 
-    <div class="container-fluid text-center bg-2">
+    <div id="what" class="container-fluid text-center bg-2">
         <h3>What Am I?</h3>
         <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo amet est sapiente libero quod quibusdam, obcaecati eius ipsam laboriosam aut molestiae eligendi, corporis aliquam consequuntur incidunt dolores in facilis. Quas.
@@ -33,7 +62,7 @@
         </a>
     </div>
 
-    <div class="container-fluid text-center bg-3">
+    <div id="why" class="container-fluid text-center bg-3">
         <h3>Why am I here?</h3><br>
         <p>
             Have you ever stopped to watch the sunset? And the reflection of the moon in the sea? And the peace you feel when watching the waves of the sea?  And that breeze touching your face? So much perfection!
@@ -75,9 +104,17 @@
                 </p>
             </div>
         </div>
+
+        <div class= "container">
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Text by Monica Lopes</button>
+            <div id="demo" class="collapse">
+                <p>Mônica Lopes - Esoteric Consultant, Tarologist, Natural Witch</p>
+                <a href="https://www.terra.com.br/vida-e-estilo/horoscopo/como-os-quatro-elementos-da-natureza-podem-ajudar-no-autoconhecimento,9e400cf7b18cc4c8faa3334bca055148jbswvrph.html" target="_blank">How the four elements of nature can help with self-knowledge</a>
+            </div>
+        </div>
     </div>
 
-    <div class="container-fluid text-center bg-4">
+    <div id="where" class="container-fluid text-center bg-4">
         <h3>Where to find me?</h3><br>
 
         <div class="row">
@@ -104,7 +141,12 @@
             <div class="col-sm-2">
                 <a href="https://www.youtube.com/channel/UCwhopTYab67xnfv57dsZFwA" target="_blank"><img src="image/icon-youtube.png" class="img-social-size" alt="Youtube"></a>
                 <p>Subscribe to my Youtube channel!</p>
+            </div>
         </div>
     </div>
+    
+    <footer class="container-fluid bg-5 text-center">
+        <p>Coded by </p> 
+    </footer>
 </body>
 </html>

@@ -1,7 +1,14 @@
-.container-fluid{
-    padding-top: 50px;
-    padding-bottom: 50px;
+body{
+    font-family: 'Livvic', sans-serif;
+    font-size: 22px;
+    line-height: 1.8;
+    color: #f5f6f7;
 }
+
+p{
+    font-size: 18px;
+}
+
 .bg-1{
     background-color: #F6f5f5;
     color: #0f0f0f;
@@ -12,16 +19,39 @@
 
 }
 .bg-3{
-    background-color: #a9b9fc;;
+    background-color: #8fadc5;;
     color: #0f0f0f;
 }
 .bg-4{
     background-color: #276678;
     color: #F6f5f5;
 }
+.bg-5 { 
+    background-color: #2f2f2f;
+    color: #fff;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 .img-pict-size{
     width: 100%;
 }
 .img-social-size{
     width: 45px;
 }
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c;
+  }
