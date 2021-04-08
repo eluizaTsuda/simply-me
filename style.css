@@ -1,9 +1,8 @@
 :root{
     --color-purple: #ab35bb;
 }
-body{
-    
-}
+
+
 p{
     font-size: 18px;
 }
@@ -56,6 +55,7 @@ p{
 .img-social-size{
     width: 45px;
 }
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -87,7 +87,10 @@ p{
   .strong-font{
     font-weight:600;
   }
-
+  .col-coded-sign{
+    font-size: 24px;
+    color: purple;
+}
 
   .carousel-control.right, .carousel-control.left {
     background-image: none;
