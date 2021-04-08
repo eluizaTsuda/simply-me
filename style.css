@@ -1,14 +1,21 @@
 :root{
     --color-purple: #ab35bb;
+    --color-white: #ffffff;
+    --color-very-dark-gray: #0f0f0f;
+    --color-light-grayish-orange: #f2efea;
+    --color-grayish-cyan: #A3d2ca;
+    --color-light-cyan: #5eaaa8;
+    --color-dark-cyan: #056676;
+    --color-moderate-blue: #3665c4;
 }
-
-
+/* >>>>> p - Font-size <<<<< */
 p{
     font-size: 18px;
 }
 .p-small{
     font-size: 14px;
 }
+/* >>>>> Margin bottom and top <<<<< */
 .margin-bt {
     margin-bottom: 25px;
 }
@@ -16,30 +23,33 @@ p{
     margin-top: 25px;
 }
 
-.bg-1{
-    background-color: #f2efea;
-    color: #0f0f0f;
-}
-.bg-2{
-    background-color: #A3d2ca;
-    color: #555555;
-}
-.bg-3{
-    background-color: #5eaaa8;;
-    color: #0f0f0f;
-}
-.bg-4{
-    background-color: #056676;
-    color: #F6f5f5;
-}
-.bg-5 { 
-    background-color: #2f2f2f;
-    color: #fff;
-}
+/* >>>>> Container e cores <<<<< */
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.bg-1{
+    background-color: var(--color-light-grayish-orange);
+    color: var(--color-very-dark-gray);
+}
+.bg-2{
+    background-color: var(--color-grayish-cyan);
+    color: var(--color-very-dark-gray);
+}
+.bg-3{
+    background-color: var(--color-light-cyan);
+    color: var(--color-very-dark-gray);
+}
+.bg-4{
+    background-color: var(--color-dark-cyan);
+    color: var(--color-white);
+}
+.bg-5 { 
+    background-color: var(--color-very-dark-gray);
+    color: var(--color-white);
+}
+
+/* >>>>> Images - 4 elements and social imgs <<<<< */
 .img-elements {
     border: 10px solid transparent;
     margin-bottom: 25px;
@@ -47,15 +57,14 @@ p{
     height: 80%;
     opacity: 0.7;
   }
-  .img-elements:hover {
-    border-color: #244B9B; 
+.img-elements:hover {
+    border-color: var(--color-moderate-blue); 
   }
-  
 
 .img-social-size{
     width: 45px;
 }
-
+/* >>>>> Navbar <<<<< */
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -67,40 +76,30 @@ p{
     letter-spacing: 5px;
   }
   .navbar-nav  li a:hover {
-      color: #1abc9c !important;
+      color: var(--color-dark-cyan) !important;
   }
 
+/* >>>>> Brandname - coded by eluh! <<<<< */
   .brandname {
     font-size: 1.3em;
     font-weight: 900;
     color: var(--color-purple);
     font-family: Princess Sofia, Calibri;
   }
-  
-  /* >>>>> Footer - coded by eluh! <<<<< */
-  .col-coded-sign {
-    color: var(--color-purple);
-    font-family: Princess Sofia, Calibri;
-    font-size: 24px;
-    font-weight: 900;
-  }  
   .strong-font{
     font-weight:600;
   }
-  .col-coded-sign{
-    font-size: 24px;
-    color: purple;
-}
 
+/* >>>>>> Carousel - mensagens <<<<< */
   .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #097051;
+    color: var(--color-dark-cyan);
   }
   .carousel-indicators li {
-    border-color: #20756a;
+    border-color: var(--color-light-cyan);
   }
   .carousel-indicators li.active {
-    background-color: #0a6b5c;
+    background-color: var(--color-dark-cyan);
   }
   .item h4 {
     font-size: 16px;
