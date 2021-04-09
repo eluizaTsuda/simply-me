@@ -17,7 +17,7 @@ p{
 }
 /* >>>>> Margin bottom and top <<<<< */
 .margin-bt {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 .margin-tp {
     margin-top: 25px;
@@ -91,8 +91,7 @@ p{
   }
 
 /* >>>>>> Carousel - mensagens <<<<< */
-  .carousel-control.right, .carousel-control.left {
-    background-image: none;
+.carousel-control.right, .carousel-control.left {
     color: var(--color-dark-cyan);
   }
   .carousel-indicators li {
@@ -101,19 +100,31 @@ p{
   .carousel-indicators li.active {
     background-color: var(--color-dark-cyan);
   }
+
+  .item span {
+    font-style: normal;
+  }
   .item h4 {
     font-size: 16px;
     line-height: 1.375em;
     font-weight: 400;
     font-style: italic;
-    margin: 10px 200px 60px;
+    margin: 10px 400px 60px;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 599px) {
     .item h4{
       margin: 10px 50px 60px;
     }
   }
 
-  .item span {
-    font-style: normal;
+  @media screen and (min-width: 600px) {
+    .item h4{
+      margin: 10px 100px 60px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .item h4{
+      margin: 10px 250px 60px;
+    }
   }
