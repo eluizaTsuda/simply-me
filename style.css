@@ -1,13 +1,22 @@
 :root{
-    --color-purple: #ab35bb;
     --color-white: #ffffff;
-    --color-very-dark-gray: #0f0f0f;
-    --color-light-grayish-orange: #f2efea;
-    --color-grayish-cyan: #A3d2ca;
-    --color-light-cyan: #5eaaa8;
-    --color-dark-cyan: #056676;
-    --color-moderate-blue: #3665c4;
+    --color-black: #0f0f0f;
+    --color-purple: #ab35bb;
+
+    --color-purple-0: #f2edf8;
+    --color-purple-1: #f0e3ff;
+    --color-purple-2: #e1ccec;
+    --color-purple-3: #c9b6e4;
+    --color-purple-4: #916dd5;
+    --color-purple-5: #3e206d;
 }
+
+body{
+    font-family: 'Livvic', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
 /* >>>>> p - Font-size <<<<< */
 p{
     font-size: 18px;
@@ -24,28 +33,32 @@ p{
 }
 
 /* >>>>> Container e cores <<<<< */
+
+.bg-0{
+    background-color: var(--color-purple-0);
+}
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
 .bg-1{
-    background-color: var(--color-light-grayish-orange);
-    color: var(--color-very-dark-gray);
+    background-color: var(--color-purple-1);
+    color: var(--color-black);
 }
 .bg-2{
-    background-color: var(--color-grayish-cyan);
-    color: var(--color-very-dark-gray);
+    background-color: var(--color-purple-2);
+    color: var(--color-black);
 }
 .bg-3{
-    background-color: var(--color-light-cyan);
-    color: var(--color-very-dark-gray);
+    background-color: var(--color-purple-3);
+    color: var(--color-black);
 }
 .bg-4{
-    background-color: var(--color-dark-cyan);
+    background-color: var(--color-purple-4);
     color: var(--color-white);
 }
 .bg-5 { 
-    background-color: var(--color-very-dark-gray);
+    background-color: var(--color-purple-5);
     color: var(--color-white);
 }
 
@@ -58,7 +71,7 @@ p{
     opacity: 0.7;
   }
 .img-elements:hover {
-    border-color: var(--color-moderate-blue); 
+    border-color: var(--color-purple-4); 
   }
 
 .img-social-size{
@@ -76,7 +89,7 @@ p{
     letter-spacing: 5px;
   }
   .navbar-nav  li a:hover {
-      color: var(--color-dark-cyan) !important;
+      color: var(--color-purple-5) !important;
   }
 
 /* >>>>> Brandname - coded by eluh! <<<<< */
@@ -92,13 +105,13 @@ p{
 
 /* >>>>>> Carousel - mensagens <<<<< */
 .carousel-control.right, .carousel-control.left {
-    color: var(--color-dark-cyan);
+    color: var(--color-purple-4);
   }
   .carousel-indicators li {
-    border-color: var(--color-light-cyan);
+    border-color: var(--color-purple-3);
   }
   .carousel-indicators li.active {
-    background-color: var(--color-dark-cyan);
+    background-color: var(--color-purple-4);
   }
 
   .item span {
